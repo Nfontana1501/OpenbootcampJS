@@ -9,11 +9,11 @@ let estudiante = `${nombre}${apellido}`
 console.log(estudiante)
 
 //String que convierte estudiante en mayus
-let estudianteMayus = `${nombre.toUpperCase()}${apellido.toUpperCase()}`
+let estudianteMayus = estudiante.toUpperCase()
 console.log(estudianteMayus)
 
 //String que convierte estudiante en minus
-let estudianteMinus = `${nombre.toLowerCase()}${apellido.toLowerCase()}`
+let estudianteMinus = estudiante.toLowerCase()
 console.log(estudianteMinus)
 
 //variable con el numero total de caracteres de estudiante
